@@ -1,0 +1,118 @@
+.h2 {
+  font-family: monospace;
+  font-size: 2rem;
+  margin-top: 8px;
+  text-align: center;
+}
+.h5 {
+  font-family: monospace;
+  font-size: 1rem;
+  margin-bottom: 0;
+  text-align: center;
+}
+.skillscomp {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 5px;
+  z-index: 1;
+}
+.skillcon {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+}
+.front,
+.back {
+  border: 1px solid grey;
+  padding: 3rem 4.5rem;
+  border-radius: 2.8rem;
+  min-width: 300px;
+}
+h3 {
+  text-align: center;
+  margin-top: 0;
+  font-size: 1.3rem;
+  padding-bottom: 15px;
+  font-weight: 500;
+}
+.back {
+  background-color: rgb(28, 24, 24);
+  color: white;
+}
+.skills {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2.5rem;
+}
+.skill {
+  display: flex;
+  gap: 1rem;
+  /* align-items: center; */
+}
+.h4 {
+  margin: 0;
+}
+.verimg {
+  margin-top: 4px;
+}
+
+@media (max-width: 1024px) {
+  .skillcon {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 570px) {
+  .skillcon {
+    gap: 1rem;
+  }
+  .front,
+  .back {
+    padding: 2.3rem 2rem;
+  }
+  .h2 {
+    font-size: 1.7rem;
+    margin-bottom: 10px;
+  }
+  .h5 {
+    margin-top: 0;
+    font-size: 0.9rem;
+  }
+  h3 {
+    font-size: 1.2rem;
+  }
+  .skillscomp{
+    margin-top: 0;
+  }
+}
+@media (max-width: 386px) {
+  .h5 {
+    margin-top: 2px;
+  }
+  .front,
+  .back {
+    padding: 2.3rem 1.2rem;
+  }
+  .skills {
+    column-gap: 1rem;
+    row-gap: 1.5rem;
+  }
+}
+@media (max-width: 355px) {
+  .front,
+  .back {
+    padding: 2rem 5px;
+  }
+  .skills {
+    column-gap: 0.5rem;
+    row-gap: 1.5rem;
+  }
+  .skill {
+    gap: 0.5rem;
+  }
+}

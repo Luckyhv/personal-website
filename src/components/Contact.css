@@ -1,0 +1,88 @@
+.contact {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.h2 {
+  font-family: monospace;
+  font-size: 2rem;
+  margin-top: 8px;
+  text-align: center;
+}
+.h3 {
+  font-family: monospace;
+  font-size: 1.6rem;
+  margin-top: 8px;
+  text-align: center;
+}
+.h5 {
+  font-family: monospace;
+  font-size: 1rem;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.buti {
+  padding: 1rem 1.5rem;
+  background-color: rgb(28, 21, 21);
+  color: white;
+  width: 100px;
+  margin: auto;
+  font-size: 1rem;
+  border-radius: 1rem;
+  cursor: pointer;
+  margin-top: 20px;
+  border: none;
+}
+.formc {
+  width: 350px;
+  height: 420px;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  /* border: 1px solid black; */
+}
+.formd {
+  position: relative;
+  height: 4rem;
+  margin-bottom: 20px;
+}
+.labelf {
+  position: absolute;
+  top: -0.75rem;
+  left: 1.25rem;
+  padding: 0.09rem;
+  background-color: white;
+  z-index: 2;
+  font-size: 0.9rem;
+}
+.forminput {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 300px;
+  height: 10px;
+  border: 2px solid rgba(0, 0, 0, 0.3);
+  background: none;
+  outline: none;
+  border-radius: 0.75rem;
+  padding: 1.5rem;
+  z-index: 1;
+  font-size: 1.1rem;
+}
+.forminput::-webkit-input-placeholder {
+  font-family: "myFont", Arial, Helvetica, sans-serif;
+}
+.innp {
+  height: 40px;
+}
+@media (max-width:375px){
+  .formc{
+    width: 300px;
+  }
+  .forminput{
+    width: 280px;
+  }
+}
