@@ -1,5 +1,6 @@
 import React from 'react'
 import './Home.css'
+import resume from '../images/Harsha_resume.docx'
 
 function Home() {
     return (
@@ -25,7 +26,7 @@ function Home() {
                     using Html, CSS, Javascript and ReactJS.
                 </p>
                 <div className="butt">
-                    <button className='bo'>Resume <i className="fa-solid fa-download"></i> </button>
+                <a href={resume} className='bo'> Resume <i className="fa-solid fa-download"></i></a>
                 </div>
             </div>
         </div>
