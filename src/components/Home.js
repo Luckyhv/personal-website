@@ -1,6 +1,6 @@
 import React from 'react'
 import './Home.css'
-import resume from '../images/Harsha_resume.docx'
+import resume from '../Harsha_resume.docx'
 
 function Home() {
     return (
