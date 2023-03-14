@@ -1,6 +1,6 @@
 import React from 'react'
 import './Home.css'
-import resume from '../Harsha_resume.docx'
+import resume from "../HARSHAVARDHAN's Resume.pdf"
 
 function Home() {
     return (
@@ -26,7 +26,7 @@ function Home() {
                     using Html, CSS, Javascript and ReactJS.
                 </p>
                 <div className="butt">
-                <a href={resume} className='bo'> Resume <i className="fa-solid fa-download"></i></a>
+                <a href={resume} className='bo' target={'_blank'} rel="noreferrer"> Resume <i className="fa-solid fa-download"></i></a>
                 </div>
             </div>
         </div>
